@@ -1,0 +1,1 @@
+# mabu-hexo-doc
