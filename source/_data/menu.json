@@ -1,27 +1,27 @@
-[
-    {
-        "code": "start"
-    },
-    {
-        "code": "config"
-    },
-    {
-        "code": "service"
-    },
-    {
-        "code": "plugin"
-    },
-    {
-        "code": "expert"
-    },
-    {
-        "code": "compose"
-    },
-    {
-        "code": "pages"
-    },
-    {
-        "code": "dev",
-        "hidden": true
-    }
-]
+[{
+    "code": "start",
+    "path": ""
+}, {
+    "code": "config",
+    "path": "config/"
+}, {
+    "code": "expert",
+    "path": "expert/",
+    "children": [{
+        "code": "service",
+        "path": "service/"
+    }, {
+        "code": "plugin",
+        "path": "plugin/"
+    }]
+}, {
+    "code": "compose",
+    "path": "compose/"
+}, {
+    "code": "pages",
+    "path": "pages/"
+}, {
+    "code": "dev",
+    "path": "dev/",
+    "hidden": true
+}]
