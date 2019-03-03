@@ -1,12 +1,12 @@
 # MabuDoc
 
-MabuDoc 是基于 [Node.js](https://nodejs.org/) & [Hexo](https://hexo.io/zh-cn/docs/) 搭建的静态页面框架
+MabuDoc 是基于 [Node](https://nodejs.org/) & [Hexo](https://hexo.io/zh-cn/docs/) 搭建的静态页面框架
 
 > 可以帮助企业快速搭建文档系统。
 
 * [Demo演示&使用教程](https://hand-mabu.github.io/hexo-mabu-doc/)
 
-## 1.0.0-Realease
+## 1.0.0-Release
 
 ### 初始化
 * 初始化自定义配置文件
