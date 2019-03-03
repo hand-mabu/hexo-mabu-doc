@@ -3,7 +3,7 @@ $(function () {
 
     let currentIdx = -1;// 当前定位坐标
 
-    const $tocList = $('#post-toc .post-toc-item'),// 目录集合
+    const $tocList = $('#post-toc .post-toc-item.post-toc-level-1'),// 目录集合
         $h1List = $('#post-content h1'),// 标题集合
         h1TopList = $h1List.map((idx, h1) => h1.offsetTop).toArray();// 标题偏移量集合
 

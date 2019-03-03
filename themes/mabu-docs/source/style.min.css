@@ -249,6 +249,6 @@ footer a, footer a:focus, footer a:hover, footer a:visited {
     margin-bottom: 0
 }
 
-.post-toc-item.active .post-toc-text{
+.post-toc-item.active>.post-toc-link>.post-toc-text {
     color: #0070ff;
 }
