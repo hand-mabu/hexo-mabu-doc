@@ -1,7 +1,7 @@
 /* hexo-prism-plugin
- * author: ele828
+ * author: Sandboat/Hikari
  * license: MIT
- * patched by SukkaW for hexo-theme-suka
+ * patched by Mabu for hexo-mabu-docs
  */
 
 'use strict';
