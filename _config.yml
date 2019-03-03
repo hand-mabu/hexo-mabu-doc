@@ -3,11 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Suka Theme
-subtitle: Suka Theme Docs
-description: Modern, powerful and simple theme for Hexo.
-author: SukkaW
+title: MabuDoc Theme
+subtitle: MabuDoc Theme Docs
+description: Hand-Mabu-研发 文档模板
+author: Sandboat Hikari
 
+# 支持语言 中、英
 language:
   - zh-CN
   - en
@@ -29,7 +30,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -67,9 +68,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: suka-docs
+theme: mabu-docs
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo:
+      github: https://github.com/hand-mabu/hexo-mabu-doc.git,master
+  branch: master

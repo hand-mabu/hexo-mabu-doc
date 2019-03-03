@@ -1,6 +1,6 @@
 {
     "assignees": [
-        "SukkaW"
+        "Mabu"
     ],
     "extends": [
         "config:base"
@@ -10,11 +10,11 @@
             "security"
         ],
         "assignees": [
-            "SukkaW"
+            "Mabu"
         ]
     },
     "reviewers": [
-        "SukkaW"
+        "Mabu"
     ],
     "commitMessageAction": "update",
     "semanticCommits": true,
