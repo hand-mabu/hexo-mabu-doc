@@ -8,7 +8,7 @@
     function generateNav(menu){
         var html = '';
         menu.forEach((item)=>{
-            html += partial('_partial/nav-item', {item: item}, {cache: true});
+            html += partial('_partial/nav-item', {item: item});
             if(item.children && item.children.length){
                 html += generateNav(item.children);
             }

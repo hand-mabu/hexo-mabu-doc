@@ -5,9 +5,7 @@
 
     // 是否当前页
     function isCurrent(menuItem){
-        console.log(navItem_url(menuItem) + 'index.html');
-        console.log(url_for(page.path));
-        return (navItem_url(menuItem) + 'index.html') === url_for(page.path);
+        return (menuItem.path + 'index.html') === path;
     }
 %>
 
