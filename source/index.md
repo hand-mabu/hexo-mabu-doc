@@ -29,7 +29,7 @@ Hexo 是基于 [Node.js](https://nodejs.org/) 的高效静态站点生成框架�
 > 你可以自己决定想要使用的分支；使用 Git 下载「MabuDoc」以后还可以使用 `git pull` 更新「MabuDoc」。
 
 ```bash
-git clone https://github.com/hand-mabu/hexo-mabu-doc.git mabuDoc
+git clone -b dev https://github.com/hand-mabu/hexo-mabu-doc.git mabuDoc
 cd mabuDoc
 git checkout {branch/tags name/commit hash}
 ```
