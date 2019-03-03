@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hand-mabu.github.io/hexo-mabu-doc/index.html</loc>
+    
+    <lastmod>2019-03-03T16:06:04.542Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hand-mabu.github.io/hexo-mabu-doc//service/index.html</loc>
     
     <lastmod>2019-03-03T13:14:19.738Z</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>https://hand-mabu.github.io/hexo-mabu-doc//pages/index.html</loc>
-    
-    <lastmod>2019-03-03T13:14:19.736Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hand-mabu.github.io/hexo-mabu-doc/index.html</loc>
     
     <lastmod>2019-03-03T13:14:19.736Z</lastmod>
     
