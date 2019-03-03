@@ -5,7 +5,7 @@ description: MabuDoc的安装和应用
 
 Hexo 是基于 [Node.js](https://nodejs.org/) 的高效静态站点生成框架。你可以在 [Hexo 的官方文档](https://hexo.io/zh-cn/docs/) 了解如何安装 Hexo、生成一个站点。
 
-> 在这篇文档中，我们假定你已经成功安装了 Hexo，**并使用 Hexo 提供的命令创建了一个站点。**
+> 在这篇文档中，我们假定你已经成功安装了 Node 和 Hexo，**并使用 Hexo 提供的命令创建了一个站点。**
 
 在 Hexo 中，通常有两份配置文件，一个是站点根目录下的 `_config.yml`；另外一个是主题目录下的 `_config.yml`。 为了描述方便，在以下说明中，将前者称为 `站点配置文件`，后者称为 `主题配置文件`。
 
@@ -72,8 +72,8 @@ INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
 
 # 更新「MabuDoc」
 
-如果你是在 版本发布页 下载并安装的「MabuDoc」，那么你需要备份你的 `主题备份文件`，然后将旧的主题文件夹命名为 `suka-old`，将下载的新版本「Suka」重命名为 `suka`，根据更新日志的指导迁移旧的 `主题配置文件` 到新的 `主题配置文件` 中。测试通过后你可以将 `suka-old` 删除。
+如果你是在 版本发布页 下载并安装的「MabuDoc」，那么你需要备份你的 `站点配置文件` `主题配置文件` `source文件夹` ，然后将旧的主题文件夹命名为 `mabuDoc-old`，将下载的新版本「MabuDoc」重命名为 `mabuDoc`，根据更新日志的指导迁移旧的 `站点配置文件` `主题配置文件` `source文件夹` 到新的 `站点配置文件` `主题配置文件` `source文件夹` 中。测试通过后你可以将 `mabuDoc-old` 删除。
 
 ----
 
-如果你使用 Git 安装的「Suka」，你可以直接在主题文件夹下运行 `git pull` 更新主题，并把备份之前的 `主题配置文件` 重命名为 `_config.old.yml`，复制一份 `_config.example.yml` 并重命名为 `_config.yml`。从 `_config.old.yml` 迁移你的配置到新的 `_config.yml`测试通过后你可以将 `_config.old.yml` 删除。
+如果你使用 Git 安装的「MabuDoc」，你可以直接在主题文件夹下运行 `git pull` 更新主题，并把备份之前的 `站点配置文件` `主题配置文件` 都重命名为 `_config.old.yml`。从 `_config.old.yml` 迁移你的配置到新的 `_config.yml`测试通过后你可以将 `_config.old.yml` 删除。
