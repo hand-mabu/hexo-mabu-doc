@@ -8,7 +8,7 @@ permalink: /expert/
 
 # 使用 Git 管理 Hexo
 
-正如在 [开始使用](/docs/) 中所说，为了避免冲突，「Suka」中只有 `_config.example.yml`，`主题配置文件` 需要将 `_config.example.yml` 复制一份并重命名为 `_config.yml`。
+正如在 [开始使用](/hexo-mabu-doc/) 中所说，为了避免冲突，「Suka」中只有 `_config.example.yml`，`主题配置文件` 需要将 `_config.example.yml` 复制一份并重命名为 `_config.yml`。
 
 为了防止开发中 `_config.yml` 被推送进 Repo 中，我们将 `_config.yml` 写入了 `.gitignore`。这意味着在使用 Git 管理 Hexo 站点文件时，`主题配置文件` 并不会被 Push 到 Repo 中。此时你需要将 `_config.yml` 从 `.gitignore` 中删除，注意这有可能会造成使用 `git pull` 更新「Suka」时造成冲突。
 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title><%- page.title %> | <%- config.title %></title>
+    <title><%- page.title %> | <%- theme.title || config.title %></title>
     <meta http-equiv="x-dns-prefetch-control" content="on">
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <meta name="description" content="Modern, powerful and simple theme for Hexo.">
@@ -22,7 +22,7 @@
     <meta property="og:url" content="https://hand-mabu.github.io/hexo-mabu-doc/">
     <meta property="og:title" content="介绍 | MabuDoc Theme">
     <meta property="og:description" content="Modern Simlpe Powerful Theme for hexo">
-    <meta property="og:image" content="<% url_for('assets/img/hexo-theme-suka.png') %>">
+    <meta property="og:image" content="<% url_for(theme.header_icon_url || 'assets/img/hexo-theme-suka.png') %>">
 </head>
 
 <%
@@ -36,9 +36,9 @@
             <section class="navbar-section">
                 <a class="off-canvas-toggle btn btn-link btn-action" href="#sidebar"><i class="icon icon-menu"></i></a>
                 <a class="navbar-icon" href="https://hand-mabu.github.io/hexo-mabu-doc/">
-                    <img src="<%- url_for('assets/img/hexo-theme-suka.png') %>">
+                    <img src="<%- url_for(theme.header_icon_url || 'assets/img/hexo-theme-suka.png') %>">
                 </a>
-                <a href="https://hand-mabu.github.io/hexo-mabu-doc/" class="btn btn-link">MabuDoc Theme</a>
+                <a href="https://hand-mabu.github.io/hexo-mabu-doc/" class="btn btn-link"><%- theme.header_title || 'MabuDoc Theme' %></a>
             </section>
             <section class="navbar-section">
                 <% if (en === true) { %>
