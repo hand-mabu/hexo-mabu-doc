@@ -3,7 +3,7 @@ title: 开始使用MabuDoc
 description: MabuDoc的安装和应用
 ---
 
-Hexo 是基于 [Node.js](https://nodejs.org/) 的高效静态站点生成框架。你可以在 [Hexo 的官方文档](https://hexo.io/zh-cn/docs/) 了解如何安装 Hexo、生成一个站点。
+MabuDoc 是基于 [Hexo](https://hexo.io/zh-cn/docs/) 和 [Node](https://nodejs.org/) 构成的高效静态站点框架。你可以在 [Hexo 的官方文档](https://hexo.io/zh-cn/docs/) 了解如何安装 Hexo、生成一个站点。
 
 > 在这篇文档中，我们假定你已经成功安装了 Node 和 Hexo，**并使用 Hexo 提供的命令创建了一个站点。**
 

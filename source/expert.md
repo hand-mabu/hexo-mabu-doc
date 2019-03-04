@@ -1,6 +1,6 @@
 ---
 title: 进阶使用
-description: 以下部分可能影响到「Suka」主题的正常运作！
+description: 以下部分可能影响到「MabuDoc」主题的正常运作！
 permalink: /expert/
 ---
 

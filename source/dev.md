@@ -1,12 +1,12 @@
 ---
 title: 开发相关
-description: 为想参与「Suka」的开发者准备
+description: 为想参与「MabuDoc」的开发者准备
 permalink: /dev/
 ---
 
 # 持续集成
 
-「Suka」的所有测试和周边（官网、Demo、文档）都使用了 Travis CI 持续集成。
+「MabuDoc」的所有测试和周边（官网、Demo、文档）都使用了 Travis CI 持续集成。
 下面是 Travis CI 的构建结果：
 
 ## Suka Theme (Branch: master)
