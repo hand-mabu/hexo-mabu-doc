@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-
     <title>进阶使用 | MabuDoc Theme</title>
     <meta http-equiv="x-dns-prefetch-control" content="on">
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
@@ -19,32 +18,32 @@
     <link rel="stylesheet" href="/hexo-mabu-doc/markdown.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sukkaw/hexo-theme-suka@0.1.0/source/lib/prism/prism-ghcolors.min.css">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://theme-suka.skk.moe/docs/">
-    <meta property="og:title" content="介绍 | Suka Theme">
+    <meta property="og:url" content="https://hand-mabu.github.io/hexo-mabu-doc/">
+    <meta property="og:title" content="介绍 | MabuDoc Theme">
     <meta property="og:description" content="Modern Simlpe Powerful Theme for hexo">
     <meta property="og:image" content>
 </head>
 
-
-
-
 <body>
-    <header class="pt-2 pb-2">
-        <div class="container grid-lg navbar pt-2 pb-2">
-            <section class="navbar-section">
-                <a class="off-canvas-toggle btn btn-link btn-action" href="#sidebar"><i class="icon icon-menu"></i></a>
-                <a class="navbar-icon" href="https://theme-suka.skk.moe">
-                    <img src="/hexo-mabu-doc/assets/img/hexo-theme-suka.png">
-                </a>
-                <a href="https://theme-suka.skk.moe" class="btn btn-link">MabuDoc Theme</a>
-            </section>
-            <section class="navbar-section">
-                
-                    <a href="/hexo-mabu-doc/expert/" class="btn btn-link navbar-link">English</a>
-                
-            </section>
-        </div>
-    </header>
+    
+<header class="pt-2 pb-2">
+    <div class="container grid-lg navbar pt-2 pb-2">
+        <section class="navbar-section">
+            <a class="off-canvas-toggle btn btn-link btn-action" href="#sidebar"><i class="icon icon-menu"></i></a>
+            <a class="navbar-icon" href="https://hand-mabu.github.io/hexo-mabu-doc/">
+                <img src="/hexo-mabu-doc/assets/img/hexo-theme-suka.png">
+            </a>
+            <a href="https://hand-mabu.github.io/hexo-mabu-doc/" class="btn btn-link">
+                MabuDoc Theme</a>
+        </section>
+        <section class="navbar-section">
+            
+            <a href="/hexo-mabu-doc/expert/" class="btn btn-link navbar-link">English</a>
+            
+        </section>
+    </div>
+</header>
+
     <div class="off-canvas off-canvas-sidebar-show">
 
         <div id="sidebar" class="off-canvas-sidebar">
@@ -68,7 +67,7 @@
 
 <li class="nav-item active" style>
     <a href="/hexo-mabu-doc/expert/">进阶使用</a>
-</li><ul class="nav">
+</li>
 
 <li class="nav-item" style>
     <a href="/hexo-mabu-doc/service/">第三方服务</a>
@@ -76,7 +75,7 @@
 
 <li class="nav-item" style>
     <a href="/hexo-mabu-doc/plugin/">内置插件</a>
-</li></ul>
+</li>
 
 <li class="nav-item" style>
     <a href="/hexo-mabu-doc/compose/">开始创作</a>
@@ -123,7 +122,8 @@
 
         <div class="off-canvas-content">
             <div class="container px-0">
-            
+                
+
 
 
 
@@ -132,12 +132,12 @@
         <div class="title-wrapper">
             <h1 class="docs-header-title mb-1">进阶使用</h1>
             
-                <p class="h4 mb-2">以下部分可能影响到「Suka」主题的正常运作！</p>
+                <p class="h4 mb-2">以下部分可能影响到「MabuDoc」主题的正常运作！</p>
             
         </div>
-        <span class="label label-rounded bg-dark mt-2">
+        <!-- <span class="label label-rounded bg-dark mt-2">
             <a class="docs-github" href="https://github.com/theme-suka/docs/tree/master/source/expert.md" target="_blank">在 GitHub 上编辑</a>
-        </span>
+        </span> -->
     </div>
 </div>
 
@@ -149,7 +149,7 @@
                     <blockquote>
 <p>「Suka」除了提供基本的主题设置和第三方服务以外，还提供了一些进阶的设定，让「Suka」更具定制性。 请注意，这些设定可能影响到「Suka」的正常运作，请务必先了解这些设定背后的相关知识。</p>
 </blockquote>
-<h1 id="使用-Git-管理-Hexo"><a href="#使用-Git-管理-Hexo" class="headerlink" title="使用 Git 管理 Hexo"></a>使用 Git 管理 Hexo</h1><p>正如在 <a href="/docs/">开始使用</a> 中所说，为了避免冲突，「Suka」中只有 <code>_config.example.yml</code>，<code>主题配置文件</code> 需要将 <code>_config.example.yml</code> 复制一份并重命名为 <code>_config.yml</code>。</p>
+<h1 id="使用-Git-管理-Hexo"><a href="#使用-Git-管理-Hexo" class="headerlink" title="使用 Git 管理 Hexo"></a>使用 Git 管理 Hexo</h1><p>正如在 <a href="/hexo-mabu-doc/">开始使用</a> 中所说，为了避免冲突，「Suka」中只有 <code>_config.example.yml</code>，<code>主题配置文件</code> 需要将 <code>_config.example.yml</code> 复制一份并重命名为 <code>_config.yml</code>。</p>
 <p>为了防止开发中 <code>_config.yml</code> 被推送进 Repo 中，我们将 <code>_config.yml</code> 写入了 <code>.gitignore</code>。这意味着在使用 Git 管理 Hexo 站点文件时，<code>主题配置文件</code> 并不会被 Push 到 Repo 中。此时你需要将 <code>_config.yml</code> 从 <code>.gitignore</code> 中删除，注意这有可能会造成使用 <code>git pull</code> 更新「Suka」时造成冲突。</p>
 <h1 id="添加自定义代码"><a href="#添加自定义代码" class="headerlink" title="添加自定义代码"></a>添加自定义代码</h1><p>「Suka」支持在 <code>&lt;/head&gt;</code> 之前添加自定义 <code>font face</code>，统计代码等自定义代码，也支持在站点的 <code>&lt;/body&gt;</code> 之前添加自定义代码。</p>
 <p>需要在站点目录下的 <code>source</code> 文件夹内创建一个名为 <code>_data</code> 的文件夹，并在文件内分别创建名为 <code>head.yml</code> <code>footer.yml</code> 的文件，并在其中加入你的自定义代码。<code>head.yml</code> 中的代码将被添加在 <code>&lt;/head&gt;</code> 之前，<code>footer.tml</code> 中的代码将被添加在 <code>&lt;/body&gt;</code> 之前。</p>
@@ -279,19 +279,20 @@
         </div>
     </div>
     <footer>
-        <p class="mb-2"><a href="https://github.com/hand-mabu/hexo-mabu-doc" target="_blank">Home</a> · <a href="https://github.com/hand-mabu/hexo-mabu-doc" target="_blank">GitHub</a> · <a href="https://hand-mabu.github.io/hexo-mabu-doc/" target="_blank">Demo</a> · <a href="https://hand-mabu.github.io/hexo-mabu-doc/" target="_blank">Documents</a>
-        </p><p>Designed and built with by <a href="https://github.com/hand-mabu" target="_blank">MABU</a>. Licensed under the <a href="https://github.com/hand-mabu/hexo-mabu-doc/blob/dev/LICENSE" target="_blank">GPL V3 License</a>.</p>
-    </footer>
+    <p class="mb-2"><a href="https://hand-mabu.github.io/hexo-mabu-doc/" target="_blank">Home</a> · <a href="https://github.com/hand-mabu/hexo-mabu-doc" target="_blank">GitHub</a>
+    </p><p>Designed and built with by <a href="https://github.com/hand-mabu" target="_blank">MABU</a>. Licensed under the <a href="https://github.com/hand-mabu/hexo-mabu-doc/blob/dev/LICENSE" target="_blank">GPL V3 License</a>.</p>
+</footer>
 </div>
 
             </div>
         </div>
     </div>
-
     <script src="/hexo-mabu-doc/jquery.min.js"></script>
     <script src="/hexo-mabu-doc/index.js"></script>
     <script src="/hexo-mabu-doc/local-search.min.js"></script>
-    <script>searchFunc('/hexo-mabu-doc/search.json')</script>
+    <script>
+        searchFunc('/hexo-mabu-doc/search.json')
+    </script>
 </body>
 
 </html>
