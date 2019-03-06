@@ -1,4 +1,5 @@
 <%
+    console.log('欢迎使用 MabuDoc');
     const en = page.path.indexOf('en') == -1 ? '' : '/en';
     var githubUrl =
     'https://github.com/theme-suka/docs/tree/master/source/' + page.source
@@ -8,6 +9,7 @@
     class: 'post-toc',
     list_number: false,
 }) %>
+
 
 <div class="docs-header">
     <div class="docs-header-wrapper">
@@ -43,8 +45,5 @@
             </div>
         </div>
     </div>
-    <footer>
-        <p class="mb-2"><a href="https://github.com/hand-mabu/hexo-mabu-doc" target="_blank">Home</a> · <a href="https://github.com/hand-mabu/hexo-mabu-doc" target="_blank">GitHub</a> · <a href="https://hand-mabu.github.io/hexo-mabu-doc/" target="_blank">Demo</a> · <a href="https://hand-mabu.github.io/hexo-mabu-doc/" target="_blank">Documents</a>
-        <p>Designed and built with by <a href="https://github.com/hand-mabu" target="_blank">MABU</a>. Licensed under the <a href="https://github.com/hand-mabu/hexo-mabu-doc/blob/dev/LICENSE" target="_blank">GPL V3 License</a>.</p>
-    </footer>
+    <%- partial('_partial/footer', {}) %>
 </div>

@@ -6,14 +6,13 @@
     "path": "config/"
 }, {
     "code": "expert",
-    "path": "expert/",
-    "children": [{
-        "code": "service",
-        "path": "service/"
-    }, {
-        "code": "plugin",
-        "path": "plugin/"
-    }]
+    "path": "expert/"
+}, {
+    "code": "service",
+    "path": "service/"
+}, {
+    "code": "plugin",
+    "path": "plugin/"
 }, {
     "code": "compose",
     "path": "compose/"
