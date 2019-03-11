@@ -8,11 +8,15 @@
     "code": "expert",
     "path": "expert/"
 }, {
-    "code": "service",
-    "path": "service/"
-}, {
-    "code": "plugin",
-    "path": "plugin/"
+    "code": "other",
+    "path": "other/",
+    "children": [{
+        "code": "service",
+        "path": "service/"
+    }, {
+        "code": "plugin",
+        "path": "plugin/"
+    }]
 }, {
     "code": "compose",
     "path": "compose/"
